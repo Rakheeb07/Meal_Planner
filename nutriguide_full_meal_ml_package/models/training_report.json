@@ -1,0 +1,18 @@
+{
+  "records": 2483,
+  "unique_food_names": 2483,
+  "model": "NearestNeighbors cosine similarity over standardized serving nutrition and one-hot meal/cuisine/category features",
+  "supervised_labels_used": false,
+  "interpretation": "Similarity retrieval model, not a model trained to predict user likes. Values are approximate and unverified.",
+  "features": [
+    "calories_kcal_per_serving_estimated",
+    "protein_g_per_serving_estimated",
+    "carbs_g_per_serving_estimated",
+    "fat_g_per_serving_estimated",
+    "fiber_g_per_serving_estimated",
+    "serving_size_g_estimated",
+    "primary_meal_type",
+    "cuisine",
+    "food_category"
+  ]
+}

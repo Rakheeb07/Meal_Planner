@@ -1,0 +1,42 @@
+{
+  "source_records": 2483,
+  "output_records": 2483,
+  "unique_food_names": 2483,
+  "primary_meal_type_counts": {
+    "lunch": 1028,
+    "breakfast": 838,
+    "dinner": 606,
+    "snacks": 10,
+    "unknown": 1
+  },
+  "meal_suitability_counts": {
+    "breakfast": 838,
+    "lunch": 1114,
+    "snacks": 42,
+    "dinner": 617
+  },
+  "record_type_counts": {
+    "food_item": 2463,
+    "prepared_meal_candidate": 20
+  },
+  "estimation_method_counts": {
+    "existing_approximate_hand_curated_value": 1663,
+    "source_reported_value_assumed_per_100g_basis_unverified": 800,
+    "heuristic_estimate_for_prepared_meal_candidate_not_real_nutrition": 20
+  },
+  "serving_method_counts": {
+    "heuristic_serving_size_estimate_from_food_name_category": 2370,
+    "existing_serving_size_basis_unverified": 113
+  },
+  "confidence_counts": {
+    "low_unverified_or_imputed": 2350,
+    "medium_unverified": 113,
+    "very_low_name_based_estimate": 20
+  },
+  "allergen_status_counts": {
+    "unknown_unverified": 2483
+  },
+  "nutrition_values_verified_count": 0,
+  "note": "All 2,483 records retained. Missing values were estimated using explicitly labelled heuristics, source-reported values with assumed per-100g basis, macro formula, or group medians. These are demo estimates only, not verified nutrition facts. Allergen/diet safety filters are disabled.",
+  "alcoholic_or_alcohol_based_records_excluded_by_default_recommender": 53
+}
